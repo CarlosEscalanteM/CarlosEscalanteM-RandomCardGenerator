@@ -1,1 +1,36 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border-style: solid;
+  border-color: 2px black;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-container {
+  background: rgb(187, 35, 15);
+}
+.upper-suit {
+  flex: 0.2;
+  margin-top: 10px;
+}
+.card-number-symbol {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 0.6;
+  font-size: 200px;
+}
+.lower-suit {
+  flex: 0.2;
+  transform: rotate(180deg);
+  margin-bottom: 10px;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
