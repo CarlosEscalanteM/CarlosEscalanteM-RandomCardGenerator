@@ -10,9 +10,7 @@
 }
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.card-container {
-  background: rgb(187, 35, 15);
+  align-items: center;
 }
 .upper-suit {
   flex: 0.2;
